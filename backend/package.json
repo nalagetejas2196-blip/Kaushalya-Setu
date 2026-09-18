@@ -1,0 +1,15 @@
+{
+  "name": "kaushalya-setu-backend",
+  "version": "1.0.0",
+  "description": "Kaushalya Setu API Server - SIH 2026 PS 26097 PM-AJAY Livelihood Navigator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}

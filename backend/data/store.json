@@ -1,0 +1,819 @@
+{
+  "users": [
+    {
+      "id": "ben-001",
+      "email": "demo.beneficiary@kaushalyasetu.local",
+      "name": "Savita Patil",
+      "name_mr": "सविता पाटील",
+      "name_hi": "सविता पाटिल",
+      "role": "beneficiary",
+      "phone": "9876543210",
+      "gender": "Female",
+      "age": 22,
+      "category": "SC",
+      "sub_caste": "Mahar",
+      "state": "Maharashtra",
+      "district": "Ahilyanagar",
+      "taluka": "Sangamner",
+      "village": "Nimgaon Jali",
+      "pincode": "422605",
+      "education": "12th Pass",
+      "employment_status": "Seeking Skill Training / Livelihood",
+      "annual_income": 72000,
+      "preferred_language": "mr",
+      "preferred_radius_km": 25,
+      "skills": [
+        {
+          "name": "Basic Mechanical Repair",
+          "level": 75,
+          "verified": true,
+          "source": "Conversational Extraction"
+        },
+        {
+          "name": "Agricultural Pump Troubleshooting",
+          "level": 80,
+          "verified": true,
+          "source": "Family Enterprise Experience"
+        },
+        {
+          "name": "Hand Tool Handling",
+          "level": 85,
+          "verified": true,
+          "source": "Practical Experience"
+        },
+        {
+          "name": "Basic Electrical Wiring",
+          "level": 40,
+          "verified": false,
+          "source": "Self Declared"
+        }
+      ],
+      "interests": [
+        "Solar Energy Systems",
+        "Agro-Mechanics",
+        "Technical Livelihoods"
+      ],
+      "mobility": "Within District (up to 30km)",
+      "profile_completion": 85,
+      "documents": [
+        {
+          "id": "doc-01",
+          "type": "caste_cert",
+          "title": "SC Category Certificate",
+          "fileName": "caste_cert_savita_patil.pdf",
+          "status": "VERIFIED",
+          "uploadedAt": "2026-09-10T10:30:00Z"
+        },
+        {
+          "id": "doc-02",
+          "type": "education_cert",
+          "title": "HSC / 12th Passing Marksheet",
+          "fileName": "hsc_marksheet_2024.pdf",
+          "status": "PENDING",
+          "uploadedAt": "2026-09-12T14:15:00Z"
+        },
+        {
+          "id": "doc-03",
+          "type": "income_cert",
+          "title": "Income Certificate (Tehsildar)",
+          "fileName": "income_cert_ahilyanagar.pdf",
+          "status": "PENDING",
+          "uploadedAt": "2026-09-12T14:20:00Z"
+        },
+        {
+          "id": "doc-04",
+          "type": "id_proof",
+          "title": "Aadhaar Identity Proof (Demo Mock)",
+          "fileName": "aadhaar_masked_demo.pdf",
+          "status": "VERIFIED",
+          "uploadedAt": "2026-09-10T10:35:00Z"
+        }
+      ]
+    },
+    {
+      "id": "off-001",
+      "email": "demo.officer@kaushalyasetu.local",
+      "name": "Rajesh Deshmukh",
+      "role": "officer",
+      "designation": "District Welfare Officer (DWO)",
+      "department": "Department of Social Justice & Special Assistance",
+      "district": "Ahilyanagar",
+      "state": "Maharashtra",
+      "jurisdiction": [
+        "Sangamner",
+        "Rahata",
+        "Kopargaon",
+        "Shrirampur",
+        "Nevasa",
+        "Akole"
+      ]
+    },
+    {
+      "id": "adm-001",
+      "email": "demo.admin@kaushalyasetu.local",
+      "name": "Sunil Gaikwad",
+      "role": "admin",
+      "designation": "State Operations Lead - PM-AJAY Mission",
+      "department": "Ministry of Social Justice & Empowerment Coordination Cell"
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ-solar-tech",
+      "title": "Solar PV Installation & Maintenance Technician",
+      "title_mr": "सोलर पीव्ही इन्स्टॉलेशन आणि देखभाल तंत्रज्ञ",
+      "title_hi": "सौर पीवी इंस्टालेशन एवं रखरखाव तकनीशियन",
+      "sector": "Green Energy & Renewables",
+      "nsqf_level": "Level 4",
+      "qp_code": "SGJ/Q0101 (Demo Mapping)",
+      "description": "Installs, operates and services rooftop and agricultural solar photovoltaic systems and solar water pumping units.",
+      "description_mr": "छतावरील आणि कृषी सौर फोटोव्होल्टेईक प्रणाली आणि सोलर पंप बसवणे, चालवणे आणि दुरुस्त करणे.",
+      "description_hi": "रूफटॉप और कृषि सौर फोटोवोल्टाइक सिस्टम और सौर जल पंपिंग इकाइयों की स्थापना, संचालन और मरम्मत।",
+      "required_skills": [
+        "Basic Electrical Wiring",
+        "Hand Tool Handling",
+        "Solar PV Array Mounting",
+        "DC Inverter Safety & Troubleshooting",
+        "Earthing & Grid Safety"
+      ],
+      "growth_potential": "High (Solar pump subsidies under PM-KUSUM & PM-AJAY rural electrification)",
+      "estimated_livelihood": "₹15,000 - ₹26,000 / month (or independent rural service provider)",
+      "min_education": "10th / 12th Pass or ITI",
+      "suitable_training_id": "tr-solar-01"
+    },
+    {
+      "id": "occ-pump-tech",
+      "title": "Agricultural Pump & Motor Maintenance Specialist",
+      "title_mr": "कृषी पंप आणि मोटर देखभाल विशेषज्ञ",
+      "title_hi": "कृषि पंप और मोटर रखरखाव विशेषज्ञ",
+      "sector": "Agriculture & Rural Engineering",
+      "nsqf_level": "Level 3",
+      "qp_code": "AGR/Q1102 (Demo Mapping)",
+      "description": "Repairs submersible pumps, mono-block sets, starter panels, and pipeline distribution systems in rural farming belts.",
+      "description_mr": "ग्रामीण शेती पट्ट्यात सबमर्सिबल पंप, मोनो-ब्लॉक संच, स्टार्टर पॅनेल्स आणि पाईपलाईन वितरण प्रणालीची दुरुस्ती करणे.",
+      "description_hi": "ग्रामीण कृषि क्षेत्रों में सबमर्सिबल पंप, मोनो-ब्लॉक सेट, स्टार्टर पैनल और पाइपलाइन वितरण प्रणालियों की मरम्मत।",
+      "required_skills": [
+        "Agricultural Pump Troubleshooting",
+        "Basic Mechanical Repair",
+        "Hand Tool Handling",
+        "Single-Phase / Three-Phase Starters",
+        "Pipe Jointing & Leak Testing"
+      ],
+      "growth_potential": "Very High Local Demand (Crucial for farmers year-round)",
+      "estimated_livelihood": "₹14,000 - ₹24,000 / month (or rural micro-enterprise)",
+      "min_education": "8th / 10th Pass",
+      "suitable_training_id": "tr-pump-01"
+    },
+    {
+      "id": "occ-electrician",
+      "title": "Rural Electrical & Home Appliance Technician",
+      "title_mr": "ग्रामीण इलेक्ट्रिकल आणि घरगुती उपकरणे तंत्रज्ञ",
+      "title_hi": "ग्रामीण इलेक्ट्रीशियन एवं घरेलू उपकरण तकनीशियन",
+      "sector": "Construction & Domestic Services",
+      "nsqf_level": "Level 3",
+      "qp_code": "CON/Q0602 (Demo Mapping)",
+      "description": "Carries out residential wiring, circuit breaker maintenance, earthing, and repair of small farm and home appliances.",
+      "description_mr": "घरगुती वायरिंग, सर्किट ब्रेकर देखभाल, अर्थिंग आणि लहान शेती व घरगुती उपकरणांची दुरुस्ती.",
+      "description_hi": "घरेलू वायरिंग, सर्किट ब्रेकर रखरखाव, अर्थिंग और छोटे कृषि व घरेलू उपकरणों की मरम्मत।",
+      "required_skills": [
+        "Basic Electrical Wiring",
+        "Circuit Diagnostics",
+        "Hand Tool Handling",
+        "Safety Compliance",
+        "Load Calculation"
+      ],
+      "growth_potential": "High Continuous Demand",
+      "estimated_livelihood": "₹12,000 - ₹22,000 / month",
+      "min_education": "10th Pass",
+      "suitable_training_id": "tr-elec-01"
+    },
+    {
+      "id": "occ-garment",
+      "title": "Industrial Garment Maker & Apparel Entrepreneur",
+      "title_mr": "औद्योगिक गारमेंट मेकर आणि पोशाख उद्योजक",
+      "title_hi": "औद्योगिक परिधान निर्माता एवं वस्त्र उद्यमी",
+      "sector": "Apparel, Made-Ups & Home Furnishing",
+      "nsqf_level": "Level 3",
+      "qp_code": "AMH/Q1001 (Demo Mapping)",
+      "description": "Creates stitched garments, runs sewing machine operations, fabric cutting, and small-batch production for local textile clusters.",
+      "description_mr": "स्थानिक कापड क्लस्टरसाठी कपडे शिवणे, शिलाई मशिन चालवणे आणि लहान बॅच उत्पादन.",
+      "description_hi": "स्थानीय कपड़ा समूहों के लिए सिले हुए कपड़े तैयार करना, सिलाई मशीन संचालन और छोटे बैच का उत्पादन।",
+      "required_skills": [
+        "Pattern Drafting",
+        "Industrial Sewing Operation",
+        "Fabric Quality Inspection",
+        "Garment Finishing"
+      ],
+      "growth_potential": "High (Self-employment & SHG cluster integration)",
+      "estimated_livelihood": "₹10,000 - ₹20,000 / month",
+      "min_education": "8th / 10th Pass",
+      "suitable_training_id": "tr-garment-01"
+    },
+    {
+      "id": "occ-drone",
+      "title": "Agricultural Drone Pilot & Smart Farming Assistant",
+      "title_mr": "कृषी ड्रोन पायलट आणि स्मार्ट फार्मिंग सहाय्यक",
+      "title_hi": "कृषि ड्रोन पायलट एवं स्मार्ट फार्मिंग सहायक",
+      "sector": "Emerging Technologies in Agriculture",
+      "nsqf_level": "Level 4",
+      "qp_code": "AGR/Q4901 (Demo Mapping)",
+      "description": "Operates DGCA-compliant agricultural spraying drones, conducts crop health mapping, and manages battery & spray payload logistics.",
+      "description_mr": "डीजीसीए-अनुरूप कृषी फवारणी ड्रोन चालवणे, पीक आरोग्य मॅपिंग करणे आणि बॅटरी व स्प्रे लॉजिस्टिक्स व्यवस्थापित करणे.",
+      "description_hi": "कृषि छिड़काव ड्रोन का संचालन, फसल स्वास्थ्य मैपिंग और बैटरी व स्प्रे लॉजिस्टिक्स प्रबंधन।",
+      "required_skills": [
+        "Drone Flight Operations",
+        "Battery & Payload Handling",
+        "Agro-Chemical Safety",
+        "GPS Navigation",
+        "Digital Device Proficiency"
+      ],
+      "growth_potential": "Exponential (Government subsidy push for Drone Didis and Rural SC Youth)",
+      "estimated_livelihood": "₹18,000 - ₹32,000 / month",
+      "min_education": "10th / 12th Pass",
+      "suitable_training_id": "tr-drone-01"
+    }
+  ],
+  "schemes": [
+    {
+      "id": "sch-pmajay-livelihood",
+      "title": "PM-AJAY Grant-in-Aid for SC Livelihood Projects",
+      "title_mr": "पीएम-अजय (PM-AJAY) अनुसूचित जाती उपजीविका प्रकल्प अनुदान",
+      "title_hi": "पीएम-अजय (PM-AJAY) अनुसूचित जाति आजीविका परियोजना अनुदान",
+      "department": "Ministry of Social Justice & Empowerment, Govt. of India",
+      "target_group": "SC rural/urban individuals, SHGs & youth",
+      "benefits": "Up to ₹50,000 subsidy or 50% project cost for viable livelihood/micro-enterprise ventures; free skill development with monthly training stipend of ₹1,500.",
+      "benefits_mr": "उपजीविका प्रकल्पांसाठी ₹५०,००० पर्यंत अनुदान किंवा ५०% प्रकल्प खर्च; विनामूल्य कौशल्य प्रशिक्षण आणि दरमहा ₹१,५०० विद्यावेतन.",
+      "benefits_hi": "व्यवहार्य आजीविका परियोजनाओं के लिए ₹50,000 तक की सब्सिडी या 50% परियोजना लागत; मुफ्त कौशल प्रशिक्षण और ₹1,500 मासिक वजीफा।",
+      "eligibility": {
+        "category": [
+          "SC"
+        ],
+        "min_age": 18,
+        "max_age": 45,
+        "max_annual_income": 300000,
+        "min_education": "8th Pass",
+        "residency": "Indian Resident (SC Community)"
+      },
+      "documents_required": [
+        "Caste Certificate issued by Competent Authority",
+        "Income Certificate / BPL Card",
+        "Aadhaar Identity Card",
+        "Bank Passbook linked to Aadhaar",
+        "Basic Educational Marksheet"
+      ],
+      "application_method": "Online via Kaushalya Setu / District Social Welfare Office",
+      "status": "ACTIVE",
+      "last_verified": "2026-08-15",
+      "source_url": "https://socialjustice.gov.in/schemes/pm-ajay",
+      "is_demo": true,
+      "tags": [
+        "Livelihood",
+        "Subsidy",
+        "SC Category",
+        "Skill Training"
+      ]
+    },
+    {
+      "id": "sch-nsfdc-skill",
+      "title": "NSFDC Special Skill Development Training Program (SSTP)",
+      "title_mr": "एनएसएफडीसी (NSFDC) विशेष कौशल्य विकास प्रशिक्षण कार्यक्रम",
+      "title_hi": "एनएसएफडीसी (NSFDC) विशेष कौशल विकास प्रशिक्षण कार्यक्रम",
+      "department": "National Scheduled Castes Finance & Development Corporation (NSFDC)",
+      "target_group": "Unemployed SC Youth aged 18 to 35 years",
+      "benefits": "100% sponsored technical training in NSQF-aligned job roles, free course kit, travel/wage stipend ₹1,500/month, and assured placement/micro-loan assistance upon certification.",
+      "benefits_mr": "NSQF-संरेखित नोकऱ्यांमध्ये १००% प्रायोजित तांत्रिक प्रशिक्षण, विनामूल्य अभ्यासक्रम किट, दरमहा ₹१,५०० प्रवास/वेतन भत्ता, आणि हमी प्लेसमेंट/कर्ज सहाय्य.",
+      "benefits_hi": "NSQF-संरेखित नौकरियों में 100% प्रायोजित तकनीकी प्रशिक्षण, मुफ्त कोर्स किट, ₹1,500/माह वजीफा और प्रमाणन के बाद प्लेसमेंट/ऋण सहायता।",
+      "eligibility": {
+        "category": [
+          "SC"
+        ],
+        "min_age": 18,
+        "max_age": 35,
+        "max_annual_income": 300000,
+        "min_education": "10th Pass",
+        "residency": "Permanent Resident of India"
+      },
+      "documents_required": [
+        "Caste Certificate",
+        "Income Certificate",
+        "Aadhaar Card",
+        "Educational Certificate (10th/12th/ITI)"
+      ],
+      "application_method": "Integrated Online Application",
+      "status": "ACTIVE",
+      "last_verified": "2026-07-20",
+      "source_url": "https://nsfdc.nic.in",
+      "is_demo": true,
+      "tags": [
+        "Skill Training",
+        "Placement Assured",
+        "Stipend",
+        "NSQF"
+      ]
+    },
+    {
+      "id": "sch-standup-india",
+      "title": "Stand-Up India Scheme for SC/ST Green-Field Enterprises",
+      "title_mr": "स्टँड-अप इंडिया: अनुसूचित जाती/जमाती नवीन उद्योग कर्ज योजना",
+      "title_hi": "स्टैंड-अप इंडिया योजना: अनुसूचित जाति/जनजाति नए उद्यम ऋण",
+      "department": "Department of Financial Services, Ministry of Finance",
+      "target_group": "SC/ST entrepreneurs starting manufacturing, services, or agri-allied enterprises",
+      "benefits": "Bank loans between ₹10 Lakh and ₹1 Crore for greenfield projects with subsidized margin money and handholding support.",
+      "benefits_mr": "नवीन प्रकल्पांसाठी ₹१० लाख ते ₹१ कोटी दरम्यान बँक कर्ज, अनुदानित मार्जिन मनी आणि मार्गदर्शन सहाय्य.",
+      "benefits_hi": "ग्रीनफील्ड परियोजनाओं के लिए ₹10 लाख से ₹1 करोड़ तक बैंक ऋण, रियायती मार्जिन मनी और मार्गदर्शन।",
+      "eligibility": {
+        "category": [
+          "SC",
+          "ST"
+        ],
+        "min_age": 18,
+        "max_age": 60,
+        "max_annual_income": 9999999,
+        "min_education": "10th Pass",
+        "residency": "Indian Citizen"
+      },
+      "documents_required": [
+        "Caste Certificate",
+        "Project Report / Business Plan",
+        "Proof of Identity & Address",
+        "Bank Statement of last 6 months"
+      ],
+      "application_method": "Online / Lead District Bank",
+      "status": "ACTIVE",
+      "last_verified": "2026-08-01",
+      "source_url": "https://www.standupmitra.in",
+      "is_demo": true,
+      "tags": [
+        "Entrepreneurship",
+        "Bank Loan",
+        "SC/ST Priority"
+      ]
+    },
+    {
+      "id": "sch-naps-sc",
+      "title": "National Apprenticeship Promotion Scheme (NAPS - SC Rural Priority)",
+      "title_mr": "राष्ट्रीय शिकाऊ उमेदवारी प्रोत्साहन योजना (NAPS)",
+      "title_hi": "राष्ट्रीय शिक्षुता प्रोत्साहन योजना (NAPS)",
+      "department": "Ministry of Skill Development & Entrepreneurship (MSDE)",
+      "target_group": "Youth seeking paid industry apprenticeships with hands-on skill development",
+      "benefits": "Govt co-funding of 25% of stipend (up to ₹1,500/month) directly transferred via DBT; industry hands-on experience and national certification.",
+      "benefits_mr": "डीबीटी द्वारे २५% शिष्यवृत्तीचे थेट सरकारी अनुदान (दरमहा ₹१,५०० पर्यंत); उद्योग प्रत्यक्ष अनुभव आणि राष्ट्रीय प्रमाणपत्र.",
+      "benefits_hi": "डीबीटी के माध्यम से वजीफे का 25% (₹1,500/माह तक) सरकारी अनुदान; उद्योग का व्यावहारिक अनुभव और राष्ट्रीय प्रमाणन।",
+      "eligibility": {
+        "category": [
+          "SC",
+          "ST",
+          "OBC",
+          "General"
+        ],
+        "min_age": 16,
+        "max_age": 35,
+        "max_annual_income": 9999999,
+        "min_education": "10th Pass / ITI",
+        "residency": "Indian Resident"
+      },
+      "documents_required": [
+        "Aadhaar Card",
+        "Educational / ITI Qualification",
+        "Bank Account Details"
+      ],
+      "application_method": "National Apprenticeship Portal / Kaushalya Setu",
+      "status": "ACTIVE",
+      "last_verified": "2026-09-01",
+      "source_url": "https://www.apprenticeshipindia.gov.in",
+      "is_demo": true,
+      "tags": [
+        "Apprenticeship",
+        "Monthly Stipend",
+        "Industry Training"
+      ]
+    }
+  ],
+  "trainings": [
+    {
+      "id": "tr-solar-01",
+      "title": "Solar PV Rooftop & Agricultural Pump Installation Course",
+      "title_mr": "सोलर पीव्ही रूफटॉप आणि कृषी पंप इन्स्टॉलेशन प्रशिक्षण",
+      "title_hi": "सौर पीवी रूफटॉप एवं कृषि पंप इंस्टालेशन पाठ्यक्रम",
+      "provider": "Government Industrial Training Institute (ITI) Sangamner",
+      "location": "Sangamner Industrial Estate, Ahilyanagar",
+      "district": "Ahilyanagar",
+      "distance_km": 12,
+      "lat": 19.5761,
+      "lng": 74.207,
+      "duration": "12 Weeks (360 Hours)",
+      "mode": "Hands-on Practical + Class",
+      "fees": "100% Free under PM-AJAY (Includes ₹1,500/mo stipend)",
+      "prerequisites": "10th Pass or basic familiarity with tools",
+      "skills_gained": [
+        "Solar PV Array Mounting",
+        "DC Inverter Safety & Troubleshooting",
+        "Earthing & Grid Safety",
+        "Basic Electrical Wiring"
+      ],
+      "certification": "Skill Council for Green Jobs (SCGJ) & NSQF Level 4 Certified",
+      "seats_available": 18,
+      "next_batch": "10 October 2026",
+      "status": "ADMISSIONS_OPEN"
+    },
+    {
+      "id": "tr-pump-01",
+      "title": "Agricultural Pump & Submersible Motor Repair Specialist Course",
+      "title_mr": "कृषी पंप आणि सबमर्सिबल मोटर दुरुस्ती विशेषज्ञ अभ्यासक्रम",
+      "title_hi": "कृषि पंप एवं सबमर्सिबल मोटर मरम्मत विशेषज्ञ पाठ्यक्रम",
+      "provider": "Krishi Vigyan Kendra (KVK) Babhaleshwar / Rahata",
+      "location": "KVK Complex, Rahata Road, Ahilyanagar",
+      "district": "Ahilyanagar",
+      "distance_km": 22,
+      "lat": 19.641,
+      "lng": 74.482,
+      "duration": "8 Weeks (240 Hours)",
+      "mode": "Full-Time Practical Workshop",
+      "fees": "Free under National Agriculture Skill Mission",
+      "prerequisites": "8th Pass or Practical Experience in Farm Machinery",
+      "skills_gained": [
+        "Motor Rewinding",
+        "Starter Panel Troubleshooting",
+        "Pump Impeller Servicing",
+        "Pipeline Pressure Testing"
+      ],
+      "certification": "Agriculture Skill Council of India (ASCI) NSQF Level 3",
+      "seats_available": 14,
+      "next_batch": "05 October 2026",
+      "status": "ADMISSIONS_OPEN"
+    },
+    {
+      "id": "tr-elec-01",
+      "title": "Domestic Wiring & Rural Electrical Safety Certificate",
+      "title_mr": "घरगुती वायरिंग आणि ग्रामीण विद्युत सुरक्षा प्रमाणपत्र",
+      "title_hi": "घरेलू वायरिंग एवं ग्रामीण विद्युत सुरक्षा प्रमाण पत्र",
+      "provider": "Maharashtra State Skill Development Society (MSSDS) Center",
+      "location": "Near Bus Stand, Sangamner City",
+      "district": "Ahilyanagar",
+      "distance_km": 8,
+      "lat": 19.572,
+      "lng": 74.212,
+      "duration": "6 Weeks (180 Hours)",
+      "mode": "Evening & Weekend Practical",
+      "fees": "Free for SC/ST Candidates",
+      "prerequisites": "10th Standard",
+      "skills_gained": [
+        "Single-Phase Wiring",
+        "Switchgear & MCB Installation",
+        "Safety Earthing",
+        "Inverter & Battery Wiring"
+      ],
+      "certification": "Construction Skill Development Council (CSDC)",
+      "seats_available": 20,
+      "next_batch": "15 October 2026",
+      "status": "ADMISSIONS_OPEN"
+    },
+    {
+      "id": "tr-garment-01",
+      "title": "Industrial Garment Production & Modern Tailoring Program",
+      "title_mr": "औद्योगिक कपडे उत्पादन आणि आधुनिक शिलाई प्रशिक्षण",
+      "title_hi": "औद्योगिक वस्त्र निर्माण एवं आधुनिक सिलाई कार्यक्रम",
+      "provider": "Rural Self Employment Training Institute (RSETI)",
+      "location": "Station Road, Ahmednagar / Ahilyanagar",
+      "district": "Ahilyanagar",
+      "distance_km": 42,
+      "lat": 19.0952,
+      "lng": 74.7496,
+      "duration": "4 Weeks (120 Hours)",
+      "mode": "Full-Time with Residential Hostel Option",
+      "fees": "100% Free with Food & Accommodation",
+      "prerequisites": "Literate / 8th Pass",
+      "skills_gained": [
+        "Industrial Sewing Operation",
+        "Pattern Drafting",
+        "Garment Finishing",
+        "SHG Enterprise Basics"
+      ],
+      "certification": "Apparel Made-ups & Home Furnishing Sector Skill Council",
+      "seats_available": 25,
+      "next_batch": "01 October 2026",
+      "status": "ADMISSIONS_OPEN"
+    },
+    {
+      "id": "tr-drone-01",
+      "title": "Kisan Drone Pilot Certification & Agro-Spraying Operations",
+      "title_mr": "किसान ड्रोन पायलट प्रमाणपत्र आणि कृषी फवारणी प्रशिक्षण",
+      "title_hi": "किसान ड्रोन पायलट प्रमाणन एवं कृषि छिड़काव प्रशिक्षण",
+      "provider": "Mahatma Phule Krishi Vidyapeeth (MPKV) Centre of Excellence",
+      "location": "Rahuri, Ahilyanagar",
+      "district": "Ahilyanagar",
+      "distance_km": 35,
+      "lat": 19.39,
+      "lng": 74.65,
+      "duration": "2 Weeks Intensive",
+      "mode": "Simulation + Field Flight Practicals",
+      "fees": "Subsidized 80% under PM-AJAY Innovation Grant",
+      "prerequisites": "10th Pass with Valid Passport or Identity",
+      "skills_gained": [
+        "Drone Flight Operations",
+        "Battery & Payload Handling",
+        "Agro-Chemical Safety",
+        "GPS Field Mapping"
+      ],
+      "certification": "DGCA-Compliant Drone Remote Pilot Certificate",
+      "seats_available": 10,
+      "next_batch": "12 October 2026",
+      "status": "ADMISSIONS_OPEN"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-solar-01",
+      "title": "Solar Installation Technician Apprentice",
+      "title_mr": "सौर इन्स्टॉलेशन तंत्रज्ञ शिकाऊ उमेदवार",
+      "title_hi": "सौर इंस्टालेशन तकनीशियन अप्रेंटिस",
+      "organization": "Sahyadri Rural Green Energy Solutions Pvt Ltd",
+      "opportunity_type": "Apprenticeship",
+      "location": "Sangamner MIDC, Ahilyanagar",
+      "district": "Ahilyanagar",
+      "distance_km": 14,
+      "lat": 19.585,
+      "lng": 74.225,
+      "stipend": "₹12,500 / month + NAPS Govt Subsidy",
+      "required_skills": [
+        "Basic Electrical Wiring",
+        "Hand Tool Handling",
+        "Solar PV Array Mounting"
+      ],
+      "eligibility": "10th / 12th Pass or ITI, age 18-30, SC category preferred under PM-AJAY cluster link",
+      "openings": 6,
+      "deadline": "2026-10-15",
+      "status": "ACTIVE",
+      "source": "District Employment Exchange & PM-AJAY Cell",
+      "verified": true
+    },
+    {
+      "id": "opp-pump-01",
+      "title": "Field Pump Servicing & Installation Associate",
+      "title_mr": "शेततळे आणि विहीर पंप दुरुस्ती सहाय्यक",
+      "title_hi": "खेत पंप सर्विसिंग एवं इंस्टालेशन सहायक",
+      "organization": "Pravara Kisan Agro-Services Federation",
+      "opportunity_type": "Job",
+      "location": "Loni / Sangamner Road, Ahilyanagar",
+      "district": "Ahilyanagar",
+      "distance_km": 18,
+      "lat": 19.61,
+      "lng": 74.38,
+      "stipend": "₹15,000 - ₹18,000 / month + Travel Allowance",
+      "required_skills": [
+        "Agricultural Pump Troubleshooting",
+        "Basic Mechanical Repair",
+        "Hand Tool Handling"
+      ],
+      "eligibility": "Experience in rural mechanical work or pump repair",
+      "openings": 4,
+      "deadline": "2026-10-20",
+      "status": "ACTIVE",
+      "source": "Local Farmers Producer Company (FPO)",
+      "verified": true
+    },
+    {
+      "id": "opp-solar-02",
+      "title": "PM-KUSUM Solar Feeder Maintenance Assistant",
+      "title_mr": "पीएम-कुसुम सौर कृषी वाहिनी देखभाल सहाय्यक",
+      "title_hi": "पीएम-कुसुम सौर कृषि फीडर रखरखाव सहायक",
+      "organization": "Maharashtra State Electricity Distribution Co. (Contractor Consortium)",
+      "opportunity_type": "Job",
+      "location": "Kopargaon Sub-Division, Ahilyanagar",
+      "district": "Ahilyanagar",
+      "distance_km": 28,
+      "lat": 19.89,
+      "lng": 74.48,
+      "stipend": "₹16,500 / month + Insurance",
+      "required_skills": [
+        "Basic Electrical Wiring",
+        "DC Inverter Safety & Troubleshooting",
+        "Hand Tool Handling"
+      ],
+      "eligibility": "Basic electrical training certificate or relevant practical experience",
+      "openings": 8,
+      "deadline": "2026-10-30",
+      "status": "ACTIVE",
+      "source": "Mahavitaran Rural Outreach Cell",
+      "verified": true
+    },
+    {
+      "id": "opp-ent-01",
+      "title": "PM-AJAY Subsidized Rural Service Center Micro-Enterprise",
+      "title_mr": "पीएम-अजय अनुदानित ग्रामीण सेवा केंद्र सूक्ष्म-उद्यम",
+      "title_hi": "पीएम-अजय रियायती ग्रामीण सेवा केंद्र सूक्ष्म-उद्यम",
+      "organization": "District Industries Centre (DIC) & Social Welfare Office",
+      "opportunity_type": "Entrepreneurship",
+      "location": "Sangamner Taluka (Village-level setup)",
+      "district": "Ahilyanagar",
+      "distance_km": 5,
+      "lat": 19.57,
+      "lng": 74.21,
+      "stipend": "Up to ₹50,000 Direct Grant + Bank Tie-up under Stand-Up India",
+      "required_skills": [
+        "Basic Mechanical Repair",
+        "Agricultural Pump Troubleshooting"
+      ],
+      "eligibility": "SC Category rural resident, 18-40 years, seeking self-employment",
+      "openings": 15,
+      "deadline": "2026-11-15",
+      "status": "ACTIVE",
+      "source": "District Welfare Department",
+      "verified": true
+    }
+  ],
+  "applications": [
+    {
+      "id": "KAUS-2026-0108",
+      "beneficiary_id": "ben-001",
+      "beneficiary_name": "Savita Patil",
+      "beneficiary_phone": "9876543210",
+      "scheme_or_opp_type": "OPPORTUNITY",
+      "target_id": "opp-solar-01",
+      "target_title": "Solar Installation Technician Apprentice",
+      "target_org": "Sahyadri Rural Green Energy Solutions Pvt Ltd",
+      "district": "Ahilyanagar",
+      "taluka": "Sangamner",
+      "status": "Under Verification",
+      "status_notes": "All preliminary criteria met. HSC marksheet and income certificate pending officer verification.",
+      "applied_date": "2026-09-12T14:30:00Z",
+      "updated_date": "2026-09-15T11:00:00Z",
+      "assigned_officer_id": "off-001",
+      "assigned_officer_name": "Rajesh Deshmukh (DWO)",
+      "documents_submitted": [
+        {
+          "type": "caste_cert",
+          "fileName": "caste_cert_savita_patil.pdf",
+          "verified": true,
+          "officer_note": "Verified against Tehsildar barcode ledger"
+        },
+        {
+          "type": "education_cert",
+          "fileName": "hsc_marksheet_2024.pdf",
+          "verified": false,
+          "officer_note": "Document legible. Awaiting seal verification"
+        },
+        {
+          "type": "income_cert",
+          "fileName": "income_cert_ahilyanagar.pdf",
+          "verified": false,
+          "officer_note": "Within prescribed BPL/EWS ceiling (₹72,000)"
+        }
+      ],
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-09-12T14:30:00Z",
+          "actor": "Savita Patil (Applicant)",
+          "note": "Application successfully submitted via Kaushalya Setu portal."
+        },
+        {
+          "status": "Under Verification",
+          "timestamp": "2026-09-14T09:45:00Z",
+          "actor": "System Dispatcher",
+          "note": "Assigned to District Welfare Officer, Ahilyanagar jurisdiction."
+        },
+        {
+          "status": "Under Verification",
+          "timestamp": "2026-09-15T11:00:00Z",
+          "actor": "Rajesh Deshmukh (DWO)",
+          "note": "Caste certificate verified online. Verification of educational qualification in progress."
+        }
+      ]
+    },
+    {
+      "id": "KAUS-2026-9462",
+      "beneficiary_id": "off-001",
+      "beneficiary_name": "Rajesh Deshmukh",
+      "scheme_or_opp_type": "SCHEME",
+      "target_id": "sch-nsfdc-skill",
+      "target_title": "NSFDC Special Skill Development Training Program (SSTP)",
+      "target_org": "District Welfare Department",
+      "district": "Ahilyanagar",
+      "taluka": "Sangamner",
+      "status": "Submitted",
+      "status_notes": "Application received. Pending assignment to District Welfare Officer.",
+      "applied_date": "2026-09-18T15:20:12.533Z",
+      "updated_date": "2026-09-18T15:20:12.533Z",
+      "assigned_officer_id": "off-001",
+      "assigned_officer_name": "Rajesh Deshmukh (DWO)",
+      "documents_submitted": [
+        {
+          "type": "caste_cert",
+          "fileName": "caste_cert_savita_patil.pdf",
+          "verified": false,
+          "officer_note": "Submitted by citizen for verification"
+        },
+        {
+          "type": "education_cert",
+          "fileName": "hsc_marksheet_2024.pdf",
+          "verified": false,
+          "officer_note": "Submitted by citizen for verification"
+        },
+        {
+          "type": "income_cert",
+          "fileName": "income_cert_ahilyanagar.pdf",
+          "verified": false,
+          "officer_note": "Submitted by citizen for verification"
+        },
+        {
+          "type": "id_proof",
+          "fileName": "aadhaar_demo_masked.pdf",
+          "verified": false,
+          "officer_note": "Submitted by citizen for verification"
+        }
+      ],
+      "timeline": [
+        {
+          "status": "Submitted",
+          "timestamp": "2026-09-18T15:20:12.533Z",
+          "actor": "Rajesh Deshmukh (Applicant)",
+          "note": "Application successfully submitted through Kaushalya Setu digital portal."
+        },
+        {
+          "status": "Under Verification",
+          "timestamp": "2026-09-18T15:20:17.533Z",
+          "actor": "System Automated Workflow",
+          "note": "Assigned to Ahilyanagar District Welfare Officer for document scrutiny."
+        }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-01",
+      "recipient_id": "ben-001",
+      "role": "beneficiary",
+      "title": "Application Status Updated",
+      "title_mr": "अर्जाची स्थिती अद्ययावत झाली",
+      "title_hi": "आवेदन की स्थिति अपडेट हुई",
+      "message": "Your application KAUS-2026-0108 has moved to 'Under Verification' by District Welfare Officer.",
+      "message_mr": "तुमचा अर्ज KAUS-2026-0108 जिल्हा समाजकल्याण अधिकाऱ्यांकडून 'पडताळणी अंतर्गत' स्थितीत हलवला गेला आहे.",
+      "message_hi": "आपका आवेदन KAUS-2026-0108 जिला समाज कल्याण अधिकारी द्वारा 'सत्यापन के तहत' स्थिति में स्थानांतरित कर दिया गया है।",
+      "type": "APPLICATION_UPDATE",
+      "reference_id": "KAUS-2026-0108",
+      "read": false,
+      "createdAt": "2026-09-15T11:00:00Z"
+    },
+    {
+      "id": "notif-02",
+      "recipient_id": "ben-001",
+      "role": "beneficiary",
+      "title": "New Training Batch in Sangamner",
+      "title_mr": "संगमनेरमध्ये नवीन प्रशिक्षण तुकडी",
+      "title_hi": "संगमनेर में नया प्रशिक्षण बैच",
+      "message": "New 100% free Solar PV Foundation batch starting at Govt ITI Sangamner under PM-AJAY.",
+      "message_mr": "पीएम-अजय अंतर्गत शासकीय आयटीआय संगमनेर येथे १००% विनामूल्य सोलर पीव्ही प्रशिक्षण सुरू होत आहे.",
+      "message_hi": "पीएम-अजय के तहत सरकारी आईटीआई संगमनेर में 100% मुफ्त सोलर पीवी प्रशिक्षण शुरू हो रहा है।",
+      "type": "TRAINING_ALERT",
+      "reference_id": "tr-solar-01",
+      "read": false,
+      "createdAt": "2026-09-16T08:30:00Z"
+    },
+    {
+      "id": "notif-03",
+      "recipient_id": "off-001",
+      "role": "officer",
+      "title": "Pending Application Verification",
+      "title_mr": "प्रलंबित अर्ज पडताळणी",
+      "title_hi": "लंबित आवेदन सत्यापन",
+      "message": "1 new application from Sangamner taluka (Applicant: Savita Patil) requires document review.",
+      "message_mr": "संगमनेर तालुक्यातील १ नवीन अर्ज (अर्जदार: सविता पाटील) कागदपत्र पडताळणीची वाट पाहत आहे.",
+      "message_hi": "संगमनेर तालुका से 1 नया आवेदन (आवेदक: सविता पाटिल) दस्तावेज़ समीक्षा की प्रतीक्षा कर रहा है।",
+      "type": "OFFICER_TASK",
+      "reference_id": "KAUS-2026-0108",
+      "read": false,
+      "createdAt": "2026-09-14T09:50:00Z"
+    },
+    {
+      "id": "notif-1789744812539",
+      "recipient_id": "off-001",
+      "role": "beneficiary",
+      "title": "Application Submitted",
+      "title_mr": "अर्ज यशस्वीरीत्या सादर केला",
+      "title_hi": "आवेदन सफलतापूर्वक जमा किया गया",
+      "message": "Your application KAUS-2026-9462 for \"NSFDC Special Skill Development Training Program (SSTP)\" has been submitted and assigned for verification.",
+      "message_mr": "तुमचा अर्ज KAUS-2026-9462 (\"NSFDC Special Skill Development Training Program (SSTP)\") यशस्वीरित्या सादर झाला असून पडताळणीसाठी पाठवण्यात आला आहे.",
+      "message_hi": "आपका आवेदन KAUS-2026-9462 (\"NSFDC Special Skill Development Training Program (SSTP)\") जमा कर दिया गया है और सत्यापन के लिए भेजा गया है।",
+      "type": "APPLICATION_SUBMITTED",
+      "reference_id": "KAUS-2026-9462",
+      "read": false,
+      "createdAt": "2026-09-18T15:20:12.533Z"
+    },
+    {
+      "id": "notif-1789744812546",
+      "recipient_id": "off-001",
+      "role": "officer",
+      "title": "New Application in Queue",
+      "title_mr": "रांगेत नवीन अर्ज प्राप्त झाला",
+      "title_hi": "कतार में नया आवेदन प्राप्त हुआ",
+      "message": "New application KAUS-2026-9462 submitted by Rajesh Deshmukh (Ahilyanagar) for NSFDC Special Skill Development Training Program (SSTP).",
+      "message_mr": "Rajesh Deshmukh (Ahilyanagar) यांच्याकडून नवीन अर्ज KAUS-2026-9462 प्राप्त झाला आहे.",
+      "message_hi": "Rajesh Deshmukh (Ahilyanagar) द्वारा नया आवेदन KAUS-2026-9462 जमा किया गया है।",
+      "type": "OFFICER_QUEUE_NEW",
+      "reference_id": "KAUS-2026-9462",
+      "read": false,
+      "createdAt": "2026-09-18T15:20:12.533Z"
+    }
+  ]
+}

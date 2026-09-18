@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Noto Sans Devanagari', 'Noto Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* High Contrast Accessibility Mode */
+.high-contrast {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.high-contrast nav,
+.high-contrast header,
+.high-contrast footer,
+.high-contrast aside,
+.high-contrast .bg-white,
+.high-contrast .bg-slate-50,
+.high-contrast .bg-slate-100 {
+  background-color: #121212 !important;
+  color: #FFFFFF !important;
+  border-color: #FFD700 !important;
+}
+
+.high-contrast .text-slate-600,
+.high-contrast .text-slate-500,
+.high-contrast .text-slate-700 {
+  color: #E2E8F0 !important;
+}
+
+.high-contrast a,
+.high-contrast button {
+  outline-color: #FFD700 !important;
+}
+
+.high-contrast .border,
+.high-contrast .border-slate-200,
+.high-contrast .border-slate-300 {
+  border-color: #FFD700 !important;
+}
+
+/* Accessible Focus Outlines */
+*:focus-visible {
+  outline: 3px solid #D97706 !important;
+  outline-offset: 2px !important;
+}
+
+/* Print Styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
