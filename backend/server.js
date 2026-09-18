@@ -57,6 +57,16 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+// Serve static frontend in production if built
+const fs = require('fs');
+const distPath = path.join(__dirname, '..', 'frontend', 'dist');
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(distPath, 'index.html'));
+  });
+}
+
 app.listen(PORT, () => {
   console.log(`[Kaushalya Setu API Server] running on http://localhost:${PORT}`);
 });
